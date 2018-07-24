@@ -1,0 +1,193 @@
+﻿node {
+  diameter: 50px;
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  border-width: 2px;
+  text-color-internal: #FFFFFF;
+  font-size: 10px;
+}
+relationship {
+  color: #A5ABB6;
+  shaft-width: 1px;
+  font-size: 8px;
+  padding: 3px;
+  text-color-external: #000000;
+  text-color-internal: #FFFFFF;
+  caption: "<type>";
+}
+node.Person {
+  color: #68BDF6;
+  border-color: #5CA8DB;
+  text-color-internal: #FFFFFF;
+  caption: "{last}";
+}
+node.Vehicles {
+  color: #6DCE9E;
+  border-color: #60B58B;
+  text-color-internal: #FFFFFF;
+  caption: "{licenceplate}";
+}
+node.* {
+  color: #FF756E;
+  border-color: #E06760;
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
+}
+node.Claim {
+  color: #6DCE9E;
+  border-color: #60B58B;
+  text-color-internal: #FFFFFF;
+  caption: "{claimid}";
+  diameter: 80px;
+}
+node.Vehicle {
+  color: #FB95AF;
+  border-color: #E0849B;
+  text-color-internal: #FFFFFF;
+  caption: "{vehicleid}";
+  diameter: 50px;
+}
+node.Incident {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: "{incidentid}";
+  diameter: 50px;
+}
+relationship.Collision {
+  shaft-width: 1px;
+}
+node.Report {
+  caption: "{Report}";
+  color: #FF756E;
+  border-color: #E06760;
+  text-color-internal: #FFFFFF;
+  diameter: 65px;
+}
+node.Schedule {
+  caption: "{Schedule}";
+  color: #68BDF6;
+  border-color: #5CA8DB;
+  text-color-internal: #FFFFFF;
+}
+relationship.contains {
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+}
+node.Subschedule {
+  caption: "{Subschedule}";
+  color: #6DCE9E;
+  border-color: #60B58B;
+  text-color-internal: #FFFFFF;
+}
+node.LineItem {
+  caption: "{LineItem}";
+  color: #FB95AF;
+  border-color: #E0849B;
+  text-color-internal: #FFFFFF;
+}
+node.BusinessElement {
+  defaultCaption: "<id>";
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+}
+node.level_1_domain {
+  defaultCaption: "<id>";
+  color: #6DCE9E;
+  border-color: #60B58B;
+  text-color-internal: #FFFFFF;
+  caption: "{level_1_domain}";
+}
+node.level_2_domain {
+  defaultCaption: "<id>";
+  color: #68BDF6;
+  border-color: #5CA8DB;
+  text-color-internal: #FFFFFF;
+  caption: "{level_2_domain}";
+}
+node.level_3_domain {
+  defaultCaption: "<id>";
+  color: #DE9BF9;
+  border-color: #BF85D6;
+  text-color-internal: #FFFFFF;
+  caption: "{level_3_domain}";
+}
+node.business_term {
+  defaultCaption: "<id>";
+  color: #68BDF6;
+  border-color: #5CA8DB;
+  text-color-internal: #FFFFFF;
+  caption: "{business_term}";
+}
+node.financial_report {
+  defaultCaption: "<id>";
+  color: #FF756E;
+  border-color: #E06760;
+  text-color-internal: #FFFFFF;
+  caption: "{financial_report}";
+}
+node.level_1 {
+  caption: "{level_1}";
+  color: #6DCE9E;
+  border-color: #60B58B;
+  text-color-internal: #FFFFFF;
+  diameter: 80px;
+}
+node.level_2 {
+  caption: "{level_2}";
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  diameter: 65px;
+}
+node.level_3_ {
+  caption: "{level_3}";
+  color: #DE9BF9;
+  border-color: #BF85D6;
+  text-color-internal: #FFFFFF;
+}
+node.level_3 {
+  defaultCaption: "<id>";
+  color: #DE9BF9;
+  border-color: #BF85D6;
+  text-color-internal: #FFFFFF;
+  caption: "{level_3}";
+  diameter: 65px;
+}
+node.stock {
+  defaultCaption: "<id>";
+  caption: "{stock}";
+  color: #DE9BF9;
+  border-color: #BF85D6;
+  text-color-internal: #FFFFFF;
+  diameter: 65px;
+}
+node.industry {
+  defaultCaption: "<id>";
+  color: #68BDF6;
+  border-color: #5CA8DB;
+  text-color-internal: #FFFFFF;
+  caption: "{industry}";
+  diameter: 80px;
+}
+node.pos_change {
+  caption: "{pos_change}";
+  color: #6DCE9E;
+  border-color: #60B58B;
+  text-color-internal: #FFFFFF;
+}
+node.neg_change {
+  caption: "{neg_change}";
+  color: #FF756E;
+  border-color: #E06760;
+  text-color-internal: #FFFFFF;
+  diameter: 80px;
+}
+node.financial_reporting {
+  caption: "{financial_reporting}";
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+}
